@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  background-color: #686de0;
+  color: #fff;
+  font-family: sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 20px;
+}
+
+.header span {
+  display: block;
+  font-size: 20px;
+  letter-spacing: 2px;
+  margin: 15px;
+  text-transform: none;
+  font-style: italic;
+}
+
+p {
+  margin-bottom: 10px;
+}
+
+.btn {
+  height: 45px;
+  width: 45px;
+  background-color: #686de0;
+  border: none;
+  color: #fff;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  border-radius: 5px;
+  cursor: pointer;
+  outline: none;
+  display: none;
+}
+
+.btn:hover {
+  transform: scale(1.05) translateY(-5px);
+}
